@@ -5,4 +5,7 @@ script:
   - java HelloWorld
 notifications:
   email:
-    - sharmask@iu.edu
+    recipients:
+      - shalakasharma92@gmail.com
+    on_success: always
+    on_failure: always
