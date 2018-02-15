@@ -3,3 +3,6 @@ jdk: oraclejdk8
 script:
   - javac HelloWorld.java
   - java HelloWorld
+notifications:
+  email:
+    - sharmask@iu.edu
