@@ -1,4 +1,5 @@
 language: java
 jdk: oraclejdk8
-script: javac HelloWorld.java
-        java HelloWorld
+script:
+  - javac HelloWorld.java
+  - java HelloWorld
